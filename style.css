@@ -1,0 +1,672 @@
+/* Import Sarab font */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* หน้าแรก */
+* {
+    /* Margin and padding are set to 0 to remove any default spacing. */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Prompt", sans-serif;
+    
+
+}
+
+body {
+    width: 100%;
+}
+
+/* index */
+
+.flag {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.flag img {
+    width: 2px;
+    height: auto;
+    border-radius: 180px;
+}
+.index{
+    
+}
+
+.restaurant-name {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: 60px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.restaurant-pic img {
+    width: 1000px;
+    height: auto;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 15px;
+    color: #e9ddcc;
+    background-color: #561d03;
+    border-radius: 15px;
+    border: none;
+}
+
+/* จบหน้าแรก */
+
+/* หน้าเลือกสถานที่ */
+.top-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-to-start {
+    margin: 10px;
+    padding: 20px;
+}
+
+.back-to-start i {
+    color: antiquewhite;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header-location {
+    margin: 6vh auto;
+    font-weight: bold;
+    font-size: 50px;
+    color: #e9ddcc;
+}
+
+.btn-toolbar-location {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.btn-secondary-location {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e9ddcc;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    margin: 3vh 2vw;
+    cursor: pointer;
+}
+
+.btn-secondary-location img {
+    width: 15vw;
+    height: auto;
+}
+
+/* จบหน้าเลือกสถานที่ */
+
+/* หน้า main ส่วน header */
+.main-head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+}
+
+/* adjust left header */
+.logo img {
+    width: 180px;
+    height: auto;
+    margin-left: 30px;
+}
+
+/* adjust right header */
+.head-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* adjust flage*/
+
+
+/* adjust cancel button */
+.main-cancel-button {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1.5px solid gainsboro;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #c1280f;
+}
+
+/* adjust shooping bag button */
+.main-bag {
+    padding: 5px;
+    font-size: 22px;
+    margin-right: 15px;
+    border: 1.5px solid gainsboro;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ff9b19;
+}
+
+/* change text color*/
+.main-cancel-button a,
+.main-bag a {
+    color: white;
+}
+
+/* จบหน้า main ส่วน header */
+/* หน้า main ส่วน nav */
+.main-nav {
+    display: flex;
+    /* ทำให้เริ่มจากทางซ้าย */
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+.back-btn{
+    display: flex;
+    /* Ensure horizontal centering */
+    justify-content: center;
+    /* Ensure vertical centering */
+    align-items: center;
+    text-align: center;
+    color: #561d03;
+    font-size: 35px;
+    font-weight: bold;
+    width: 250px;
+}
+
+
+.main-btn-1 {
+    display: flex;
+    /* Ensure horizontal centering */
+    justify-content: center;
+    /* Ensure vertical centering */
+    align-items: center;
+    text-align: center;
+    border: 1.5px solid gainsboro;
+    color: white;
+    width: 320px;
+    background-color: #561d03;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #CCC2B6;
+    font-size: 25px;
+}
+
+.main-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 20px;
+   
+    color: rgb(99, 99, 99);
+    padding: 5px;
+    font-size: 25px;
+    width: 320px;
+}
+
+/* จบหน้า main ส่วน nav */
+
+/* หน้า mainส่วนของ menu*/
+.food-menu{
+    background-color: #972222;
+    margin: 70px;
+    margin-top: 10px;
+}
+    
+
+
+.food-menu-box {
+
+    width: 300px;
+    height: 320px;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 2px;
+    float: left;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.03);
+    /*border-radius: 10px;*/
+    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    cursor: pointer;}
+    .food-menu-img {
+        height: 135px;
+      
+    }
+
+.food-menu-img img {
+    width: 150px;
+    
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.food-menu-name h5{
+    font-size: 1.2vw;
+    width: 270px;
+    height: 70px;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 5px;
+    color: rgb(66, 66, 66);
+  
+}
+
+.food-menu-price h4{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 1.5vw;
+    color: #c1280f;
+   
+}
+
+.sec-custom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.custom-topping-detail {
+    margin: 10px;
+    max-width: 220px;
+    width:320px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50rem;
+}
+
+.menu-detail {
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.select-img img {
+    max-width: 320px;
+    display: block;
+    margin: auto;
+}
+
+.menu-name {
+    margin: 3rem 2rem 0 2rem;
+}
+
+.menu-price {
+    margin: 1rem 2rem;
+}
+
+.menu-name h5,
+.menu-price h4 {
+    font-size: 1.2vw;
+}
+
+
+.sec-custom {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-topping-detail {
+    margin: auto;
+    max-width: 1500px;
+    width: 1200px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.menu-detail {
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.select-img img {
+    max-width: 320px;
+    display: block;
+    margin: auto;
+}
+
+.menu-name {
+    margin: 3rem 2rem 0 2rem;
+}
+
+.menu-price {
+    margin: 1rem 2rem;
+}
+
+.menu-name h5,
+.menu-price h4 {
+    font-size: 1.2vw;
+}
+
+.summary {
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+
+.qty {
+    display: flex;
+    align-items: center;
+}
+
+.qty button {
+    background-color: #fff;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    color: black;
+    padding: 8px 20px;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.qty input {
+    border: 1px solid rgb(65, 65, 65);
+    color: black;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 1.2vw;
+    width: 105px;
+    margin: 0 5px;
+    background-color: #fff;
+}
+
+
+.back-and-addToBag{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text{
+    color: white;
+}
+
+.add-to-bag  {
+    background-color: #ff9b19;
+    border-color: #ff9b19;
+    color: white;
+    width: 45%;
+    font-size: 1.3vw;
+    margin-top: 2vh;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.text {
+    color: white;
+}
+
+.add-to-bag,
+.proceed-to-pay,
+.paymentConfirm {
+    background-color: #ff9b19;
+    border-color: #ff9b19;
+    color: white;
+    width: 300px;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* ตกแต่งเส้นในทุกๆหน้า */
+hr {
+    background-color: #ddd;
+    height: 0.5px;
+    border: 0;
+}
+
+/* ส่วนของหน้าสรุปสินค้า */
+.bag {
+    margin: 30px auto;
+    max-width: 1200px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.shopping-bag {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 64% 20% 8% 8%;
+    /* กำหนดขนาดคอลัมน์ให้เท่ากัน */
+    align-items: center;
+}
+
+.summary-inSum {
+    background-color: #ddd;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+
+.title-inSum h4,
+.title-inSum h5 {
+    font-size: 1.5vw;
+}
+
+.loca-inSum p {
+    font-size: 1.2vw;
+}
+
+.product-name-inSum h6 {
+    font-size: 10px;
+    margin-left: 5px;
+    background-color: #972222;
+}
+
+
+
+/* ราคาแต่ละสินค้า และ จำนวน*/
+.price-inSum,
+.qty-inSum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ถังขยะ */
+.btn-trash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.price-inSum p,
+.btn-trash i {
+    font-size: 12px;
+    margin: 0;
+}
+
+.qty-inSum {
+    display: flex;
+    align-items: center;
+}
+
+.qty-inSum button {
+    background-color: #fff;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    color: black;
+    padding: 8px 20px;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.qty-inSum input {
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 8px 6px;
+    font-size: 1.2vw;
+    width: 50px;
+    margin: 0 5px;
+    background-color: #fff;
+}
+
+.total-price-des-inSum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price-des-inSum h5 {
+    font-size: 1.3vw;
+}
+/* ส่วนเพิ่มเติม */
+.cal-price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.cal-price h6{
+    font-size: 1.3vw;
+    
+}
+.cal-total-price {
+    
+    margin-left: 0.5rem;
+}
+
+/* จบหน้า mainส่วนของ menu*/
+
+
+.btn-trash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.price-inSum p,
+.btn-trash i {
+    font-size: 1.2vw;
+    margin: 0;
+}
+.total-price-des-inSum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price-des-inSum h5 {
+    font-size: 1.3vw;
+}
+/* ส่วนเพิ่มเติม */
+.cal-price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.cal-price h6{
+    font-size: 1.3vw;
+    
+}
+.cal-total-price {
+    
+    margin-left: 0.5rem;
+}
+.cancel-button {
+    padding: 3px 10px;
+    margin-right: 20px;
+    border: 1.5px solid gainsboro;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    background-color: #c1280f;
+    position: absolute;
+    /* กำหนดตำแหน่งอยู่บนขอบหน้าจอ */
+    top: 20px;
+    /* ระยะห่างด้านบน */
+    right: 20px;
+    /* ระยะห่างด้านซ้าย */
+}
+
+.cancel-button a {
+    color: white;
+}
+
+.timmer-des {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.timmer-des h2 {
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    color: rgb(99, 99, 99);
+}
+
+.pay-by-QR {
+    display: flex;
+    justify-content: center;
+}
+
+.qr-forPay-contanier {
+    background-color: #fff;
+    padding: 20px 120px;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+}
+
+.qr-forPay h2 {
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.qr-forPay {
+    display: flex;
+    justify-content: center;
+}
+
+.qr-forPay img {
+    width: 20vw;
+    height: auto;
+}
